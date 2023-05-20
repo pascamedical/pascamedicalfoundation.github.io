@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    width: 60px;
+    height: 50px;
+    padding-left: 0px;
+    margin-left: 0px;
+    color: orangered;
+    font-size: 28px;
+    font-family: monospace;
+    padding-left: 0.5px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 300px;
+}
+.menu{
+    width: 400px;
+    float: right;
+    height: 70px;
+    margin-right: 40px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+ul li{
+    float: right;
+    list-style: none;
+    margin-left: 27px;
+    margin-top: 27px;
+    font-size: 18px;
+    position: relative;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orangered;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 150px;
+}
+srch{
+    font-family: 'Times New Roman';
+    margin-top: 20px;
+    color: transparent;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    background: orangered;
+    border: 1px solid orangered;
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: orangered;
+}
+h1{
+    margin-top: 35px;
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: black;
+}
+button{
+    margin-top: 50px;
+    width: 90px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%,);
+    position: absolute;
+    top: 150px;
+    left: 1040px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+.btn:hover{
+    background-color: white;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orangered;
+}
+.liw{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    padding-right: 20px;
+}
+.form .link a:hover{
+    color: brown;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+.icon ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+}
+.icon ion-icon:hover{
+    color: orangered;
+}
+.drop_menu{
+    display: block;
+    position: absolute;
+    right: 250;
+    top: 5%;
+    background: transparent;
+}
+.drop_menu ul{
+    display: block;
+    margin: 10px;
+}
+.drop_menu li{
+    display: block;
+    width: 50px;
+    padding: 10px;
+}
+@media(max width 600px){
+    .main{
+        width: 100%;
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(background.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .navbar{
+        width: 1200%;
+        height: 75%;
+        margin: auto;
+    }
+}

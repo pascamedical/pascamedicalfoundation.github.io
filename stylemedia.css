@@ -1,0 +1,36 @@
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(pasca\ logo.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.menu{
+    width: 400px;
+    float: right;
+    height: 70px;
+    margin-right: 40px;
+    padding-right: 100px;
+    margin-top: 25px;
+}
+ul{
+    text-align: right;
+    font-size: larger;
+    font-family: Arial;
+}
+li{
+    text-decoration: none;
+     display: flex;
+     float: right;
+     margin-left: 27px;
+     font-size: 20px;
+     list-style: none;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+a:hover{
+    color: orangered;
+}

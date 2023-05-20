@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: violet;
+    font-size: 14px;
+}
+.container{
+    width: 80%;
+    margin: 50px;
+    font-size: 25px;
+}
+p{
+    font-family: monospace;
+}
+.contact-box{
+    background: transparent;
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+    margin-left: 0px;
+}
+.contact-left{
+    flex-basis: 40%;
+    padding: 50px;
+    margin: 10px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
